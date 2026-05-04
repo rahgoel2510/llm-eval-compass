@@ -1,0 +1,130 @@
+models:
+  claude-haiku-3.5:
+    provider: Anthropic
+    model_id: claude-haiku-3.5
+    display_name: Claude Haiku 3.5
+    context_window: 200000
+    input_cost_per_1k_tokens: 0.0008
+    output_cost_per_1k_tokens: 0.004
+    supports_streaming: true
+    endpoint_type: api
+
+  claude-sonnet-4-6:
+    provider: Anthropic
+    model_id: claude-sonnet-4-6
+    display_name: Claude Sonnet 4.6
+    context_window: 200000
+    input_cost_per_1k_tokens: 0.003
+    output_cost_per_1k_tokens: 0.015
+    supports_streaming: true
+    endpoint_type: api
+
+  claude-opus-4-6:
+    provider: Anthropic
+    model_id: claude-opus-4-6
+    display_name: Claude Opus 4.6
+    context_window: 200000
+    input_cost_per_1k_tokens: 0.015
+    output_cost_per_1k_tokens: 0.075
+    supports_streaming: true
+    endpoint_type: api
+
+  gpt-4o:
+    provider: OpenAI
+    model_id: gpt-4o
+    display_name: GPT-4o
+    context_window: 128000
+    input_cost_per_1k_tokens: 0.0025
+    output_cost_per_1k_tokens: 0.01
+    supports_streaming: true
+    endpoint_type: api
+
+  gpt-4o-mini:
+    provider: OpenAI
+    model_id: gpt-4o-mini
+    display_name: GPT-4o Mini
+    context_window: 128000
+    input_cost_per_1k_tokens: 0.00015
+    output_cost_per_1k_tokens: 0.0006
+    supports_streaming: true
+    endpoint_type: api
+
+  gpt-4.1:
+    provider: OpenAI
+    model_id: gpt-4.1
+    display_name: GPT-4.1
+    context_window: 1000000
+    input_cost_per_1k_tokens: 0.002
+    output_cost_per_1k_tokens: 0.008
+    supports_streaming: true
+    endpoint_type: api
+
+  gemini-2.5-pro:
+    provider: Google
+    model_id: gemini-2.5-pro
+    display_name: Gemini 2.5 Pro
+    context_window: 1000000
+    input_cost_per_1k_tokens: 0.00125
+    output_cost_per_1k_tokens: 0.01
+    supports_streaming: true
+    endpoint_type: api
+
+  gemini-2.5-flash:
+    provider: Google
+    model_id: gemini-2.5-flash
+    display_name: Gemini 2.5 Flash
+    context_window: 1000000
+    input_cost_per_1k_tokens: 0.00015
+    output_cost_per_1k_tokens: 0.0035
+    supports_streaming: true
+    endpoint_type: api
+
+  mistral-large:
+    provider: Mistral
+    model_id: mistral-large
+    display_name: Mistral Large
+    context_window: 128000
+    input_cost_per_1k_tokens: 0.002
+    output_cost_per_1k_tokens: 0.006
+    supports_streaming: true
+    endpoint_type: api
+
+  mistral-small:
+    provider: Mistral
+    model_id: mistral-small
+    display_name: Mistral Small
+    context_window: 128000
+    input_cost_per_1k_tokens: 0.0002
+    output_cost_per_1k_tokens: 0.0006
+    supports_streaming: true
+    endpoint_type: api
+
+  titan-text-express:
+    provider: AWS Bedrock
+    model_id: amazon.titan-text-express-v1
+    display_name: Titan Text Express
+    context_window: 8000
+    input_cost_per_1k_tokens: 0.0002
+    output_cost_per_1k_tokens: 0.0006
+    supports_streaming: true
+    endpoint_type: bedrock
+
+  llama3-8b-bedrock:
+    provider: AWS Bedrock
+    model_id: meta.llama3-8b-instruct-v1
+    display_name: Llama 3 8B (Bedrock)
+    context_window: 8000
+    input_cost_per_1k_tokens: 0.0003
+    output_cost_per_1k_tokens: 0.0006
+    supports_streaming: true
+    endpoint_type: bedrock
+
+  llama3-70b-bedrock:
+    provider: AWS Bedrock
+    model_id: meta.llama3-70b-instruct-v1
+    display_name: Llama 3 70B (Bedrock)
+    context_window: 8000
+    input_cost_per_1k_tokens: 0.00265
+    output_cost_per_1k_tokens: 0.0035
+    supports_streaming: true
+    endpoint_type: bedrock

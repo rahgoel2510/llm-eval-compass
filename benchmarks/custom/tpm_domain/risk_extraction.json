@@ -1,0 +1,23 @@
+[
+  {
+    "test_case_id": "RISK-001",
+    "input": "Project update: The vendor has not confirmed the delivery date for the hardware. If delayed beyond June 15, the launch will slip by 2 weeks.",
+    "expected_output": "Risk: Hardware delivery delay. Impact: 2-week launch slip. Trigger: Vendor misses June 15 deadline. Mitigation: Confirm delivery date with vendor immediately.",
+    "category": "risk_extraction",
+    "difficulty": "easy"
+  },
+  {
+    "test_case_id": "RISK-002",
+    "input": "The lead backend engineer gave notice and their last day is May 20. They own the payment processing module which has no documentation. Two junior engineers are on the team but have not worked on payments.",
+    "expected_output": "Risk: Key-person dependency on payment processing. Impact: Knowledge loss, potential delays to payment features. Trigger: Engineer departure May 20. Mitigation: Prioritize knowledge transfer and documentation before last day.",
+    "category": "risk_extraction",
+    "difficulty": "medium"
+  },
+  {
+    "test_case_id": "RISK-003",
+    "input": "We're using an open-source library (v2.3) for PDF parsing that hasn't been updated in 8 months. There are 3 open CVEs rated medium severity. The library is used in the document ingestion pipeline processing 10K docs/day.",
+    "expected_output": "Risk: Security vulnerabilities in PDF parsing dependency. Impact: 3 medium CVEs in production pipeline (10K docs/day). Trigger: Already active. Mitigation: Evaluate alternative libraries or fork and patch CVEs.",
+    "category": "risk_extraction",
+    "difficulty": "hard"
+  }
+]

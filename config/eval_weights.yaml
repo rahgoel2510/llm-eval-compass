@@ -1,0 +1,40 @@
+profiles:
+  default:
+    quality: 0.30
+    performance: 0.20
+    cost: 0.20
+    safety: 0.15
+    compliance: 0.10
+    operational: 0.05
+
+  customer_facing_chat:
+    quality: 0.35
+    safety: 0.25
+    performance: 0.20
+    cost: 0.10
+    compliance: 0.05
+    operational: 0.05
+
+  internal_enterprise_tool:
+    cost: 0.30
+    quality: 0.25
+    compliance: 0.20
+    performance: 0.15
+    safety: 0.05
+    operational: 0.05
+
+  high_volume_batch:
+    cost: 0.40
+    performance: 0.30
+    quality: 0.20
+    safety: 0.05
+    compliance: 0.03
+    operational: 0.02
+
+  regulated_industry:
+    compliance: 0.35
+    safety: 0.25
+    quality: 0.25
+    cost: 0.10
+    performance: 0.03
+    operational: 0.02

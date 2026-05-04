@@ -1,0 +1,23 @@
+[
+  {
+    "test_case_id": "MEET-001",
+    "input": "Meeting transcript: John said the API migration is 80% done, due Friday. Sarah raised a blocker on auth integration — needs DevOps support. Mike committed to providing a staging environment by Wednesday.",
+    "expected_output": "Action items: 1) John: Complete API migration by Friday. 2) Sarah: Resolve auth integration blocker (needs DevOps). 3) Mike: Provide staging environment by Wednesday.",
+    "category": "meeting_summarization",
+    "difficulty": "easy"
+  },
+  {
+    "test_case_id": "MEET-002",
+    "input": "Meeting transcript: The team discussed Q3 budget. Lisa proposed cutting the ML platform spend by 20% and reallocating to hiring. Tom disagreed, citing upcoming model training needs. They agreed to revisit after the cost analysis is done next week. No decision was made.",
+    "expected_output": "Summary: Q3 budget discussion — no decision reached. Lisa proposed 20% ML platform cut for hiring reallocation. Tom opposed due to training needs. Next step: Revisit after cost analysis (next week).",
+    "category": "meeting_summarization",
+    "difficulty": "medium"
+  },
+  {
+    "test_case_id": "MEET-003",
+    "input": "Meeting transcript: Sprint retro. Positives: deployment pipeline reduced release time from 4hrs to 45min. Negatives: three P1 incidents caused by missing integration tests. Action: QA lead to add integration test gate to CI by next sprint. PM to schedule incident review for Thursday.",
+    "expected_output": "Retro summary — Good: Deployment pipeline improved (4hrs→45min). Bad: 3 P1 incidents from missing integration tests. Actions: 1) QA lead: Add integration test gate to CI (next sprint). 2) PM: Schedule incident review (Thursday).",
+    "category": "meeting_summarization",
+    "difficulty": "medium"
+  }
+]

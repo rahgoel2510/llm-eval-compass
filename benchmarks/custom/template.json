@@ -1,0 +1,9 @@
+[
+  {
+    "test_case_id": "DOMAIN-001",
+    "input": "Your input text or prompt here",
+    "expected_output": "The expected model output or key elements to check",
+    "category": "task_category",
+    "difficulty": "easy|medium|hard"
+  }
+]

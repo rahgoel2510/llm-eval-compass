@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "computer_science",
+    "question": "Which of the following data structures has O(1) average-case time complexity for insertion?",
+    "choices": {"A": "Sorted array", "B": "Hash table", "C": "Binary search tree", "D": "Linked list (at position)"},
+    "answer": "B"
+  },
+  {
+    "subject": "biology",
+    "question": "What is the primary function of mitochondria in a cell?",
+    "choices": {"A": "Protein synthesis", "B": "ATP production", "C": "DNA replication", "D": "Cell division"},
+    "answer": "B"
+  },
+  {
+    "subject": "world_history",
+    "question": "The Treaty of Westphalia (1648) is most significant for establishing the principle of:",
+    "choices": {"A": "Free trade", "B": "State sovereignty", "C": "Religious unity", "D": "Colonial expansion"},
+    "answer": "B"
+  },
+  {
+    "subject": "mathematics",
+    "question": "What is the derivative of f(x) = x^3 + 2x?",
+    "choices": {"A": "3x^2", "B": "3x^2 + 2", "C": "x^2 + 2", "D": "3x + 2"},
+    "answer": "B"
+  },
+  {
+    "subject": "economics",
+    "question": "When a market has only one seller, this is known as:",
+    "choices": {"A": "Oligopoly", "B": "Perfect competition", "C": "Monopoly", "D": "Monopsony"},
+    "answer": "C"
+  }
+]

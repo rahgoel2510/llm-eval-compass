@@ -1,0 +1,23 @@
+[
+  {
+    "test_case_id": "STATUS-001",
+    "input": "Sprint 12 data: 18 of 22 stories completed. Velocity: 45 points (target 50). Blocker: CI pipeline flaky tests causing 30% build failures. Team morale: good.",
+    "expected_output": "Sprint 12 Status: 82% stories complete (18/22), velocity at 90% of target (45/50 pts). Blocker: Flaky CI tests (30% build failure rate). Action needed: Stabilize CI pipeline. Overall: On track with minor risk.",
+    "category": "status_update",
+    "difficulty": "easy"
+  },
+  {
+    "test_case_id": "STATUS-002",
+    "input": "Project Alpha — Week 8 of 12. Milestones: API complete (done), Frontend 60% (was planned 80%), Mobile app not started (planned 20%). Budget: 70% spent. Team added 1 contractor for frontend.",
+    "expected_output": "Project Alpha (Week 8/12): API ✅. Frontend behind schedule (60% vs 80% planned) — contractor added. Mobile app not started (at risk). Budget: 70% consumed with 33% timeline remaining — potential overrun. Recommend: Reassess mobile scope.",
+    "category": "status_update",
+    "difficulty": "medium"
+  },
+  {
+    "test_case_id": "STATUS-003",
+    "input": "Q2 program update: 3 of 5 workstreams green, 1 yellow (data migration — schema conflicts), 1 red (vendor integration — API spec changed, 3-week delay). Exec review scheduled Friday. Headcount: 2 open reqs unfilled for 6 weeks.",
+    "expected_output": "Q2 Program: 3/5 green. Yellow: Data migration (schema conflicts — resolution in progress). Red: Vendor integration (API spec change, 3-week delay). Hiring gap: 2 reqs open 6 weeks. Exec review Friday — recommend escalating vendor delay and hiring blockers.",
+    "category": "status_update",
+    "difficulty": "hard"
+  }
+]

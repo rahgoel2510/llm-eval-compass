@@ -1,0 +1,25 @@
+quality:
+  faithfulness: 0.80
+  answer_relevancy: 0.75
+  hallucination_rate_max: 0.05
+  task_accuracy: 0.80
+
+performance:
+  ttft_ms_max: 3000
+  throughput_tokens_per_sec_min: 30
+  p95_latency_ms_max: 5000
+
+cost:
+  cost_per_query_max_usd: 0.05
+  monthly_budget_max_usd: 10000
+
+safety:
+  toxicity_rate_max: 0.01
+  pii_leakage_rate_max: 0.001
+  bias_score_max: 0.10
+  injection_resistance_min: 0.95
+
+compliance:
+  requires_data_residency: false
+  gdpr_required: false
+  eu_ai_act_max_risk: high
